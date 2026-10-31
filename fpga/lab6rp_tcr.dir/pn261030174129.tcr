@@ -1,0 +1,6 @@
+#Start recording tcl command: 10/30/2026 15:55:49
+#Project Location: C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga; Project name: lab6rp
+prj_create -name "lab6rp" -impl "impl_1" -dev iCE40UP5K-UWG30ITR -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_add_source "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv"
+#Stop recording: 10/30/2026 17:41:29
