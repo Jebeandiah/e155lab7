@@ -5,6 +5,10 @@ Z0 !s12c _opt2
 Z1 !s99 nomlopt
 R0
 R1
+R0
+R1
+R0
+R1
 Z2 !s12c _opt1
 R1
 R0
@@ -74,10 +78,10 @@ R4
 T_opt2
 !i145 1
 !i144 0
-!s110 1793607974
-VjSTbz_X;>ZWfdSBZD:<>22
+!s110 1793608364
+Vaa03I=kS<ZRJl[XWH5`C>3
 04 18 4 work testbench_aes_core fast 0
-=1-546ceb15b648-6ae84926-129-31e8
+=1-546ceb15b648-6ae84aac-43-3cd0
 R1
 !s12f OEM25U46 
 R5
@@ -90,7 +94,7 @@ R10
 vaes
 Z11 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv
 Z12 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z13 !s110 1793607952
+Z13 !s110 1793608346
 !i10b 1
 !s100 L6acinb=hk1C<LjM@oR4V2
 I>`XgOVDmzDnWX8G5jeK=]3
@@ -99,14 +103,14 @@ R4
 Z14 w1793599101
 Z15 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv
 Z16 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv
-!i122 68
+!i122 86
 L0 6 12
 Z17 VDg1SIo80bB@j0V0VzS_@n1
 Z18 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z19 !s108 1793607952.000000
+Z19 !s108 1793608346.000000
 Z20 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv|
 Z21 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv|
 !i113 0
@@ -124,7 +128,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 75 44
 R17
 R18
@@ -149,7 +153,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 26 29
 R17
 R18
@@ -165,7 +169,7 @@ R23
 vaescontroller
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv
 R12
-Z24 !s110 1793607951
+R13
 !i10b 1
 !s100 6kl;8SAzTdaA?lWo>41G91
 IClJEa`L[WPVe3WdnT5FGg3
@@ -174,14 +178,14 @@ R4
 w1793607359
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv
-!i122 67
+!i122 85
 L0 1 15
 R17
 R18
 r1
 !s85 0
 31
-Z25 !s108 1793607951.000000
+R19
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv|
 !i113 0
@@ -190,7 +194,7 @@ R23
 vcounter
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv
 R12
-R24
+R13
 !i10b 1
 !s100 R35nDI`Dcf^4HPGc:o<hQ3
 Ije^G;:OPn033zc:1C9mYR0
@@ -199,14 +203,14 @@ R4
 w1793591762
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv
-!i122 66
+!i122 84
 L0 6 18
 R17
 R18
 r1
 !s85 0
 31
-R25
+R19
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv|
 !i113 0
@@ -224,7 +228,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 211 8
 R17
 R18
@@ -240,23 +244,23 @@ R23
 vkeyexpansion
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv
 R12
-R24
+R13
 !i10b 1
-!s100 fM^LTK9k<dCUeHnCmEFGb0
-IcPZ8g29^E5L]9@L57B9Q12
+!s100 OaMk7WaYzEfXZ2@2P^8B[0
+Iz^3memmV1mAld>X]BDzIg2
 S1
 R4
-w1793607943
+w1793608332
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv
-!i122 65
+!i122 83
 L0 1 58
 R17
 R18
 r1
 !s85 0
 31
-R25
+R19
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv|
 !i113 0
@@ -274,7 +278,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 184 19
 R17
 R18
@@ -299,7 +303,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 168 8
 R17
 R18
@@ -324,7 +328,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 127 10
 R17
 R18
@@ -349,7 +353,7 @@ R4
 R14
 R15
 R16
-!i122 68
+!i122 86
 L0 144 16
 R17
 R18
@@ -365,7 +369,7 @@ R23
 vshiftrows
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv
 R12
-R24
+R13
 !i10b 1
 !s100 XL[3chlCzb<Cf<D0KdX<A0
 I3:J>U23nCSYzod[R4RR4^1
@@ -374,14 +378,14 @@ R4
 w1793603065
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv
-!i122 64
+!i122 82
 L0 1 24
 R17
 R18
 r1
 !s85 0
 31
-R25
+R19
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv|
 !i113 0
@@ -400,7 +404,7 @@ w1793597799
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbyte.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbyte.sv
 !i122 0
-Z26 L0 1 20
+Z24 L0 1 20
 R17
 R18
 r1
@@ -415,7 +419,7 @@ R23
 vsubbytes
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv
 R12
-R24
+R13
 !i10b 1
 !s100 5SFT73WV51:Vo7AK]K=PY1
 IG;;>BE6Ddlb?b`^Q<WIN43
@@ -424,14 +428,14 @@ R4
 w1793598871
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv
-!i122 63
-R26
+!i122 81
+R24
 R17
 R18
 r1
 !s85 0
 31
-R25
+R19
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv|
 !i113 0
@@ -440,7 +444,7 @@ R23
 vtestbench_aes_core
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_core_tb.sv
 R12
-Z27 !s110 1793607961
+Z25 !s110 1793608350
 !i10b 1
 !s100 5;5OQWDfRIfl>i_DUKl122
 IeSAW_=JF@50I5RHENDj;Z3
@@ -449,14 +453,14 @@ R4
 w1793600913
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_core_tb.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_core_tb.sv
-!i122 71
+!i122 89
 L0 11 43
 R17
 R18
 r1
 !s85 0
 31
-Z28 !s108 1793607961.000000
+Z26 !s108 1793608350.000000
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_core_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_core_tb.sv|
 !i113 0
@@ -465,23 +469,23 @@ R23
 vtestbench_aes_sbox
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_sbox_tb.sv
 R12
-R27
+R25
 !i10b 1
 !s100 E802:^hIgYbZd^<0leGNb3
 IWL@Hn;Nk8;TR3nl`a?7jQ3
 S1
 R4
-Z29 w1793400181
+Z27 w1793400181
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_sbox_tb.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_sbox_tb.sv
-!i122 70
+!i122 88
 L0 7 67
 R17
 R18
 r1
 !s85 0
 31
-R28
+R26
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_sbox_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_sbox_tb.sv|
 !i113 0
@@ -490,23 +494,23 @@ R23
 vtestbench_aes_spi
 2C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_spi_tb.sv
 R12
-R27
+R25
 !i10b 1
 !s100 ECM4U[SG6oCU]XGW;T?IF2
 I1E2Aj>C6Kb`oiO=n3_G8R1
 S1
 R4
-R29
+R27
 8C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_spi_tb.sv
 FC:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_spi_tb.sv
-!i122 69
+!i122 87
 L0 8 73
 R17
 R18
 r1
 !s85 0
 31
-R28
+R26
 !s107 C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_spi_tb.sv|
 !s90 -reportprogress|300|-work|work|C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_spi_tb.sv|
 !i113 0

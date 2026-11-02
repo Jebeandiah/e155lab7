@@ -3,12 +3,12 @@ module keyexpansion(input  logic         clk,
                 input  logic [127:0] key, 
                 output logic [127:0] roundkey);
 
-logic[127:0] previouskey;
+logic[127:0] nextkey;
 
 //w[i − Nk]
 always_ff @(posedge clk) begin
 
-	previouskey <= roundkey;
+	roundkey <= nextkey;
 end
 
 //words must be 32bits
@@ -16,10 +16,10 @@ end
 logic[31:0]  subword;
 logic [31:0] rcon;
 
-sbox_sync sb0(previouskey[23:16], clk, subword[31:24]);  //rot a1 to [0] in w[i-1] (previouskey[31:0]) and then sbox
-sbox_sync sb1(previouskey[15:8], clk, subword[23:16]);
-sbox_sync sb2(previouskey[7:0], clk, subword[15:8]);
-sbox_sync sb3(previouskey[31:24], clk, subword[7:0]);
+sbox_sync sb0(roundkey[23:16], clk, subword[31:24]);  //rot a1 to [0] in w[i-1] (previouskey[31:0]) and then sbox
+sbox_sync sb1(roundkey[15:8], clk, subword[23:16]);
+sbox_sync sb2(roundkey[7:0], clk, subword[15:8]);
+sbox_sync sb3(roundkey[31:24], clk, subword[7:0]);
 
 //   The key and message are 128-bit values packed into an array of 16 bytes as
 //   shown below
@@ -31,13 +31,13 @@ sbox_sync sb3(previouskey[31:24], clk, subword[7:0]);
 always_comb begin
 
 	if(itercount<2) begin
-		roundkey = key;
+		nextkey = key;
 	end
 	else begin
-		roundkey[127:96] = previouskey[127:96]^subword^rcon;   // w[i]  = w[i − Nk]^ subword^rcon 
-		roundkey[95:64] = previouskey[95:64]^roundkey[127:96]; //w[i] = w[i-nk]^w[i-1]
-		roundkey[63:32] = previouskey[63:32]^roundkey[95:64]; //w[i] = w[i-nk]^w[i-1]
-		roundkey[31:0] = previouskey[31:0]^roundkey[63:32]; //w[i] = w[i-nk]^w[i-1]
+		nextkey[127:96] = roundkey[127:96]^subword^rcon;   // w[i]  = w[i − Nk]^ subword^rcon 
+		nextkey[95:64] = roundkey[95:64]^nextkey[127:96]; //w[i] = w[i-nk]^w[i-1]
+		nextkey[63:32] = roundkey[63:32]^nextkey[95:64]; //w[i] = w[i-nk]^w[i-1]
+		nextkey[31:0] = roundkey[31:0]^nextkey[63:32]; //w[i] = w[i-nk]^w[i-1]
 		end
 	case (itercount-1)
             4'd1:    rcon = 32'h01000000;
