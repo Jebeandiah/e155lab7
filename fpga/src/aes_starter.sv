@@ -79,8 +79,42 @@ module aes_core(input  logic         clk,
                 output logic         done, 
                 output logic [127:0] cyphertext);
 
-    // TODO: Your code goes here
-    
+	logic[3:0]itercount;
+	
+	logic [127:0] roundkey;
+
+	logic [127:0] state;
+	logic [127:0] tempstate0;
+	logic [127:0] tempstate1;
+	logic [127:0] tempstate2;
+
+	logic [127:0] nextstate;
+   logic isintermediate;
+   logic isfinal;
+   aescontroller controller(clk, load, isintermediate, isfinal, done, itercount);
+   
+   subbytes sb(state, tempstate0);
+   shiftrows sr(tempstate0, tempstate1);
+   mixcolumns mc(tempstate1, tempstate2);
+   
+   always_comb begin
+	   if(isintermediate)begin
+			nextstate = roundkey^tempstate2;
+		end
+		else if(isfinal)begin
+			nextstate = roundkey^tempstate1;
+		end
+		else
+			nextstate = roundkey^plaintext;
+	   
+	end
+	
+	keyexpansion ke(clk,itercount,  key, roundkey);
+   
+	always_ff @(posedge clk) begin
+		state <= nextstate;
+	end
+    assign cyphertext = state;
 endmodule
 
 /////////////////////////////////////////////

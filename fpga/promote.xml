@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userSetting name="C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/promote.xml" version="Diamond (64-bit) 2026.1.0.37.0" date="Sun Nov 01 22:18:34 2026" vendor="Lattice Semiconductor Corporation" >
+  <msg mid="2043072" type="Error" internal="true" />
+  <msg mid="35901128" type="Warning" internal="true" />
+  <msg mid="2043349" type="Error" internal="true" />
+  <msg mid="35901349" type="Warning" internal="true" />
+  <msg mid="2043018" type="Info" internal="true" />
+  <msg mid="35901419" type="Warning" internal="true" />
+  <msg mid="2043419" type="Error" internal="true" />
+  <msg mid="2043128" type="Error" internal="true" />
+  <msg mid="2043952" type="Error" internal="true" />
+  <msg mid="2043137" type="Error" internal="true" />
+  <msg mid="2044344" type="Error" internal="true" />
+  <msg mid="2043328" type="Info" internal="true" />
+  <msg mid="2044320" type="Info" internal="true" />
+  <msg mid="2043188" type="Error" internal="true" />
+  <msg mid="2043063" type="Warning" internal="true" />
+  <msg mid="2044561" type="Info" internal="true" />
+  <msg mid="2043988" type="Warning" internal="true" />
+  <msg mid="2044170" type="Warning" internal="true" />
+  <msg mid="2043967" type="Info" internal="true" />
+  <msg mid="2043329" type="Warning" internal="true" />
+  <msg mid="2043931" type="Warning" internal="true" />
+  <msg mid="2044365" type="Warning" internal="true" />
+  <msg mid="2044387" type="Warning" internal="true" />
+  <msg mid="2043229" type="Warning" internal="true" />
+  <msg mid="35901137" type="Warning" internal="true" />
+  <msg mid="2043330" type="Warning" internal="true" />
+  <msg mid="35901328" type="Info" internal="true" />
+  <msg mid="2043318" type="Warning" internal="true" />
+  <msg mid="2043972" type="Info" internal="true" />
+  <msg mid="35901012" type="Warning" internal="true" />
+  <msg mid="35931002" type="Warning" internal="true" />
+  <msg mid="2043182" type="Error" internal="true" />
+</userSetting>

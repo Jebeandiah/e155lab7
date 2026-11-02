@@ -40,6 +40,7 @@ module testbench_aes_core();
 
     // wait until done and then check the result
     always @(posedge clk) begin
+		$display("Testbench running");
       if (done) begin
         if (cyphertext == expected)
             $display("Testbench ran successfully");

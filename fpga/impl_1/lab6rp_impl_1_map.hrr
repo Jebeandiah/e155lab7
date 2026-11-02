@@ -1,0 +1,138 @@
+---------------------------------------------------
+Report for cell subbyte
+   Instance path: subbyte
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       3546        100.0
+                               LUTGATE	       3546        100.0
+                                 IOBUF	        256        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                                  sbox	          1         6.2
+                               sbox_U0	          1         5.9
+                               sbox_U1	          1         6.3
+                              sbox_U10	          1         6.4
+                              sbox_U11	          1         5.9
+                              sbox_U12	          1         5.9
+                              sbox_U13	          1         6.2
+                              sbox_U14	          1         6.5
+                               sbox_U2	          1         6.4
+                               sbox_U3	          1         6.4
+                               sbox_U4	          1         6.3
+                               sbox_U5	          1         6.2
+                               sbox_U6	          1         6.5
+                               sbox_U7	          1         6.5
+                               sbox_U8	          1         6.4
+                               sbox_U9	          1         6.3
+---------------------------------------------------
+Report for cell sbox_U11
+   Instance path: subbyte/sb12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        208         5.9
+                               LUTGATE	        208         5.9
+---------------------------------------------------
+Report for cell sbox_U10
+   Instance path: subbyte/sb13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        226         6.4
+                               LUTGATE	        226         6.4
+---------------------------------------------------
+Report for cell sbox_U9
+   Instance path: subbyte/sb14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        223         6.3
+                               LUTGATE	        223         6.3
+---------------------------------------------------
+Report for cell sbox_U1
+   Instance path: subbyte/sb7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        222         6.3
+                               LUTGATE	        222         6.3
+---------------------------------------------------
+Report for cell sbox_U5
+   Instance path: subbyte/sb3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        220         6.2
+                               LUTGATE	        220         6.2
+---------------------------------------------------
+Report for cell sbox_U12
+   Instance path: subbyte/sb11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        208         5.9
+                               LUTGATE	        208         5.9
+---------------------------------------------------
+Report for cell sbox_U4
+   Instance path: subbyte/sb4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        222         6.3
+                               LUTGATE	        222         6.3
+---------------------------------------------------
+Report for cell sbox_U6
+   Instance path: subbyte/sb2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        229         6.5
+                               LUTGATE	        229         6.5
+---------------------------------------------------
+Report for cell sbox_U0
+   Instance path: subbyte/sb8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        208         5.9
+                               LUTGATE	        208         5.9
+---------------------------------------------------
+Report for cell sbox_U3
+   Instance path: subbyte/sb5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        226         6.4
+                               LUTGATE	        226         6.4
+---------------------------------------------------
+Report for cell sbox_U13
+   Instance path: subbyte/sb10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        219         6.2
+                               LUTGATE	        219         6.2
+---------------------------------------------------
+Report for cell sbox_U8
+   Instance path: subbyte/sb15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        228         6.4
+                               LUTGATE	        228         6.4
+---------------------------------------------------
+Report for cell sbox_U14
+   Instance path: subbyte/sb0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        232         6.5
+                               LUTGATE	        232         6.5
+---------------------------------------------------
+Report for cell sbox
+   Instance path: subbyte/sb9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        220         6.2
+                               LUTGATE	        220         6.2
+---------------------------------------------------
+Report for cell sbox_U2
+   Instance path: subbyte/sb6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        226         6.4
+                               LUTGATE	        226         6.4
+---------------------------------------------------
+Report for cell sbox_U7
+   Instance path: subbyte/sb1
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        229         6.5
+                               LUTGATE	        229         6.5

@@ -1,0 +1,8 @@
+-ver "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.v"
+-lib pmi -vhd "C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd"
+-sver "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aes_starter.sv" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/keyexpansion.sv" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/counter.sv" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/aescontroller.sv" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/shiftrows.sv" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga/src/subbytes.sv"
+-path "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga" "C:/Users/blertwachara/Documents/GitHub/e155lab7/fpga"
+-top aes
+-isTop
+-a "iCE40UP"
+-t "iCE40UP5K"
