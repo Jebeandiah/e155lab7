@@ -104,6 +104,9 @@ module aes_core(input  logic         clk,
 		else if(isfinal)begin
 			nextstate = roundkey^tempstate1;
 		end
+        else if(done)begin
+			nextstate = state;
+        end
 		else
 			nextstate = roundkey^plaintext;
 	   

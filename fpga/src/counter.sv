@@ -14,7 +14,7 @@ output logic[COUNTER_WIDTH-1:0] counter);
 	begin
 		if(reset == 0) 
 			counter <=0;
-		else if(counter == MAX_COUNT-1) 
+		else if(counter == MAX_COUNT-1 &&enable) 
 			counter <= 0;
 		else if(enable == 1)
 			counter <= counter+1'b1;
